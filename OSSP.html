@@ -1,0 +1,40 @@
+# Joon4518.github.io
+<html>
+	<head>
+		<!--d3js CDN-->
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+		<link rel="stylesheet" href="billboard.css">
+		<script src = "billboard.js"></script>
+	</head>
+	<body>
+	   	<div id = "chart"></div>
+	   	<div id = "bubble"></div>
+		<script>
+			var bubble = bb.generate({
+				bindto: "#bubble",
+				data: {
+					type : "bubble",
+					columns: [
+					["data1", 30, 200, 100, 400, 150, 250]
+					]
+				}
+			});
+			var chart = bb.generate({
+			    bindto: "#chart",
+			    data: {
+			        types: {
+			        	s: "bar",
+			        	data2: "bar",
+			        	data3: "spline"
+			        },
+			        columns: [
+			            ["s", 30, 200, 100, 170, 150, 250],
+			            ["data2", 130, 100, 140, 35, 110, 50],
+			    				["data3", 50, 150, 120, 100, 120, 200]
+			        ]
+			    }
+			});
+		</script>
+	</body>
+
+</html>
