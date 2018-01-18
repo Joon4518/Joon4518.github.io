@@ -1,4 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,19 +19,18 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="input.jsp">차트 선택 </a>
+			<a class="navbar-brand" href="input.jsp">Chart Choice </a>
 		</div>
 		<!--네비게이션 메뉴 차트선택-->
 		<div class="collapse navbar-collapse" id="navbar-collapse">
 			<ul class="nav navbar-nav">
-				<li><a href="dataAction.jsp">BAR</a>
-				</li>
+				<li><a href="dataAction.jsp">BAR</a></li>
 				<li><a href="dataAction.jsp">LINE</a></li>
 				<li><a href="dataAction.jsp">AREA</a></li>
 				<li><a href="dataAction.jsp">DONUT</a></li>
 			</ul>		
 		</div>
-
+	</nav>
 	<script src ="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src ="bootstrap.js"></script>
 </body>
