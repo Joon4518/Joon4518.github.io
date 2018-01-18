@@ -32,16 +32,6 @@
 				<li><a href="dataAction.jsp">DONUT</a></li>
 			</ul>		
 		</div>
-	</nav>
-	     <form action="dataAction.jsp" method="post">
-            <label>이름: </label>
-            <input name="name" type="text"><br>
-            <label>이메일: </label>
-            <input name="email" type="text"><br>
-            <label>비밀번호: </label>
-            <input name="password" type="password"><br>
-            <input type="submit" value="전송">
-        </form>	
 
 	<script src ="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src ="bootstrap.js"></script>
