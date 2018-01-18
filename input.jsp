@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -45,6 +44,6 @@
         </form>	
 
 	<script src ="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-	<script src ="js/bootstrap.js"></script>
+	<script src ="bootstrap.js"></script>
 </body>
 </html>
