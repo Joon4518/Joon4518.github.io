@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- ì¤íì¼ ìí¸  ê²½ë¡ì¤ì  -->
+	<!--스타일시트 경로설정 -->
 
 	<link rel = "stylesheet" href="css/bootstrap.css">
 
@@ -24,7 +24,7 @@
 			</button>
 			<a class="navbar-brand" href="input.jsp">차트 선택</a>
 		</div>
-		<!--ë¤ë¹ê²ì´ì ë©ë´ ì°¨í¸ì í-->
+		<!--네비게이션 바-->
 		<div class="collapse navbar-collapse" id="navbar-collapse">
 			<ul class="nav navbar-nav">
 				<li><a href="BAR.jsp">BAR</a></li>
@@ -41,6 +41,21 @@
 			</ul>		
 		</div>
 	</nav>
+	
+	<div class="container">
+		<form method="post" action="SPLINEAction.jsp">
+			<label> 1번  데이터 </label><input type="text" class="form-control" name="data1" placeholder="데이터를 입력하세요  ex) 2,3,4" >
+	    	<label> 2번  데이터 </label><input type="text" class="form-control" name="data2" placeholder="데이터를 입력하세요  ex) 2,3,4">
+	    	<label> 3번  데이터 </label><input type="text" class="form-control" name="data3" placeholder="데이터를 입력하세요  ex) 2,3,4">
+	    	<label> 4번  데이터 </label><input type="text" class="form-control" name="data4" placeholder="데이터를 입력하세요  ex) 2,3,4">
+	    	<label> 5번  데이터 </label><input type="text" class="form-control" name="data5" placeholder="데이터를 입력하세요  ex) 2,3,4">
+	    	<input type="submit" class="btn-primary form-control" value="차트 출력">	
+		</form>
+	</div>
+	<br>	
+		<div class="jumbotron" style="padding-top: 20px;">
+			<h3 style="text-align: center;">SPLINE차트</h3>
+		</div>
 	<script src ="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src ="js/bootstrap.js"></script>
 </body>
